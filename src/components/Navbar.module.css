@@ -1,0 +1,35 @@
+.nav{
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    grid-gap:5%;
+    background-color: blanchedalmond;
+    padding: 1%;
+    font-size: 20px;
+}
+.nav > div{
+    font-size: 15px;
+    font-family:cursive;
+    font-weight: bold;
+}
+.link{
+    text-decoration: none;
+    font-weight: bold;
+}
+.coupon{
+    width:50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin:0% 0% 1% 30%;
+    padding: 0.2%;
+}
+.coupon > span{
+    animation-timing-function: linear;
+    position: relative;
+    animation: mymove 12s infinite;
+    
+}
+@keyframes mymove {
+            from {right: -580px;}
+            to  {right: 550px;}
+}
